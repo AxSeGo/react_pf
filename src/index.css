@@ -9,3 +9,13 @@
   --font-family-sans: 'Space Grotesk', sans-serif;
   --font-family-serif: 'Roboto', sans-serif;
 }
+
+/* Applying Roboto to all <p> tags */
+p {
+  font-family: var(--font-family-serif);
+}
+
+/* Applying Space Grotesk to all heading tags */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-sans);
+}
